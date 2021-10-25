@@ -35,6 +35,12 @@ body {
     background-color: transparent;
     border: none;
     padding: 13px 20px;
+    width: 100%;
+    outline: none;
+}
+
+.search-input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
 }
 
 .search-btn {
